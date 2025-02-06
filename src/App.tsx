@@ -28,7 +28,7 @@ import {
   FaExclamationTriangle,
 } from "react-icons/fa";
 
-const API_BASE_URL = "https://image-to-text-liard.vercel.app";
+const API_BASE_URL = "http://localhost:3001";
 const API_ENDPOINT = "imageToText";
 
 interface ImageToTextData {
