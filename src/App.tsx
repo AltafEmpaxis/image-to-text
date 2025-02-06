@@ -26,6 +26,7 @@ import {
   FaEye,
   FaCheck,
   FaExclamationTriangle,
+  FaGithub,
 } from "react-icons/fa";
 
 const API_BASE_URL = "http://localhost:3001";
@@ -349,10 +350,20 @@ function App() {
     <Container fluid className="py-4">
       <Card className="app-card">
         <Card.Header className="app-card-header bg-primary text-white">
-          <h3 className="mb-0">
-            <FaImage className="me-2" />
-            Image to Text Converter
-          </h3>
+          <div className="d-flex justify-content-between align-items-center">
+            <h3 className="mb-0">
+              <FaImage className="me-2" />
+              Image to Text Converter
+            </h3>
+            <a
+              href="https://github.com/AltafEmpaxis/image-to-text"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white"
+            >
+              <FaGithub size={24} />
+            </a>
+          </div>
         </Card.Header>
 
         <Card.Body className="app-card-body">
